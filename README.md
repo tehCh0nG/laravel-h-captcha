@@ -42,7 +42,7 @@ Update your packages with ```composer update``` or install with ```composer inst
 Add ServiceProvider to the `providers` array in `config/app.php`.
 
 ```
-'Buzz\LaravelHCaptcha\CaptchaServiceProvider',
+'Buzz\LaravelHCaptcha\CaptchaServiceProvider::class',
 ```
 
 ## Publish Config
